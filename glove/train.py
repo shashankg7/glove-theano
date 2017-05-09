@@ -46,7 +46,7 @@ class train_glove(object):
         if args.dim:
             self.dim = args.dim
         if args.epochs:
-            self.epochs = args.epochs
+            self.n_epochs = args.epochs
         if args.learning_rate:
             self.lr = args.learning_rate
         if args.context_size:
